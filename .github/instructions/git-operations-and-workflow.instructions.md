@@ -2,9 +2,9 @@
 
 - When instructed to commit changes, generate a descriptive commit message that summarizes the entire work session or task, not just the most recent changes
 - Always prefix commit messages with "[Copilot]" to identify that the changes were made by GitHub Copilot
-- Use the `run_in_terminal` tool to execute the git-commit-push-with-message.bat script with the AI-generated commit message
-- Execute git operations using the following command:
-  - `.\.vscode\scripts\git-commit-push-with-message.bat "[Copilot] AI-generated commit message"`
+ - Use the `run_in_terminal` tool to execute the git-commit-push-with-message.bat script with the AI-generated commit message
+ - Execute git operations using the following command:
+   - `\.github\scripts\git-commit-push-with-message.bat "[Copilot] AI-generated commit message"`
 - The script automatically handles staging changes, committing with the provided message, and pushing to the remote repository
 - Generate commit messages that provide an overview of the complete work session, including all related changes and their collective purpose
 - Follow conventional commit format when appropriate (e.g., "[Copilot] feat:", "[Copilot] fix:", "[Copilot] docs:", "[Copilot] refactor:")

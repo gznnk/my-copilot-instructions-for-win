@@ -38,11 +38,3 @@ if %ERRORLEVEL% EQU 0 (
     echo Push successful!
   ) else (
     echo Error: Push failed.
-    exit /b 1
-  )
-) else (
-  echo Error: Commit failed.
-  exit /b 1
-)
-
-endlocal
