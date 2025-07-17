@@ -1,2 +1,4 @@
 # my-copilot-instructions-for-win
-Personal GitHub Copilot instructions for my Windows development environment. Not intended for reuse in other setups.
+Minimal setup of GitHub Copilot instructions for my personal Windows environment.
+Includes guidance to check for build errors and commit changes after Copilot suggestions.
+Not intended for reuse in other environments.
